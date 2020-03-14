@@ -1,5 +1,8 @@
 # NgrxTodoApp
 
+##Live
+[NgrxTodoApp](https://gllrm0.github.io/ngrx-todoApp/)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
 
 ## Development server
