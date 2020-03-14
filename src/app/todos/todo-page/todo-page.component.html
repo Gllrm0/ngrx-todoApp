@@ -1,0 +1,19 @@
+<section class="todoapp">
+  <header class="header">
+    <h1>Tareas</h1>
+    <app-todo-add></app-todo-add>
+  </header>
+  <!-- This section should be hidden by default and shown when there are todos -->
+  <section class="main">
+    <input
+      id="toggle-all"
+      class="toggle-all"
+      type="checkbox"
+      [formControl]="marcarTodosCheckbox"
+    />
+    <label for="toggle-all">Mark all as complete</label>
+    <app-todo-list></app-todo-list>
+  </section>
+  <!-- This footer should hidden by default and shown when there are todos -->
+  <app-todo-footer></app-todo-footer>
+</section>

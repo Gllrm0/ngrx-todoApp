@@ -1,0 +1,7 @@
+<input
+  class="new-todo"
+  placeholder="Qué quieres hacer?"
+  [formControl]="txtInput"
+  (keyup.enter)="agregarTodo()"
+  autofocus
+/>
